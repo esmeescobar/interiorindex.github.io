@@ -1,0 +1,91 @@
+.bg{
+    width: 100vw;
+    height: 100vh;
+    z-index: -5;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+header{
+    padding: 20px;
+    overflow: hidden;
+}
+
+nav{
+    float: left;
+}
+
+a{
+    font-family: gimlet-text, serif;
+    font-size: 25px;
+    font-weight: 400;
+    font-style: normal;
+    color: #917045;
+    background-color: transparent;
+    text-decoration: none;
+    /*text-decoration-color: #917045;*/
+}
+
+a:hover {
+  color: #917045;
+  background-color: transparent;
+  text-decoration: underline;
+  font-style: italic;
+}
+
+h1{
+    font-family: font-family: fig-serif, sans-serif;
+    padding: 05px;
+}
+
+p{
+    font-family: gimlet-text, serif;
+    font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+h1{
+    font-size: 70px;
+    font-family: fig-serif, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+}
+
+h2{
+    font-size: 20px;
+    text-align: center;
+}
+
+
+
+img{
+    margin: auto;
+}
+
+/*For Sidebar if Use*/
+/*div.sidebar { 
+    float: left; 
+    width: 20%;
+    height:  100px; 
+    overflow: scroll;
+    background-color: pink;
+} 
+div.content { 
+    float: left; 
+    width: 50%;
+    background-color: lavender;
+    height:  100px; 
+    overflow: scroll;
+} 
+div.comments { 
+    float: right; 
+    width: 30%; 
+    background-color: palegreen;
+    height:  100px; 
+    overflow: scroll;
+}
+*/
